@@ -52,7 +52,7 @@ RUN curl -L "https://github.com/docker/compose/releases/download/1.22.0/docker-c
 # Install go
 RUN add-apt-repository ppa:longsleep/golang-backports
 RUN apt-get update
-RUN apt-get install -y golang-1.8-go
+RUN apt-get install -y golang-1.11-go
 
 # Install tmux
 WORKDIR /usr/local/src
