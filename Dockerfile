@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
 # Locales
 ENV LANGUAGE=en_US.UTF-8
