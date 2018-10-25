@@ -29,7 +29,8 @@ RUN apt-get update && apt-get install -y \
       tmux \
       tzdata \
       wget \
-      zsh 
+      zsh \
+      ca-certificates
 RUN chsh -s /usr/bin/zsh
 
 # Install docker
