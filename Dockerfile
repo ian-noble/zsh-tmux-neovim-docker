@@ -56,9 +56,9 @@ RUN apt-get install -y golang-1.11-go
 
 # Install tmux
 WORKDIR /usr/local/src
-RUN wget https://github.com/tmux/tmux/releases/download/2.5/tmux-2.5.tar.gz
-RUN tar xzvf tmux-2.5.tar.gz
-WORKDIR /usr/local/src/tmux-2.5
+RUN wget https://github.com/tmux/tmux/releases/download/2.7/tmux-2.7.tar.gz
+RUN tar xzvf tmux-2.7.tar.gz
+WORKDIR /usr/local/src/tmux-2.7
 RUN ./configure
 RUN make 
 RUN make install
